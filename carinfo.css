@@ -1,0 +1,41 @@
+
+/* .smallcars :hover{
+    transform: translateY(20px);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+:root {
+    --font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.container1 {
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: left;
+    margin-top: 45px;
+}
+
+
+.honda{
+    background-color: inherit;
+}
+.img{
+    overflow: hidden;
+}
+.img img{
+    transition: 0.3s;
+
+}
+.img:hover img{
+    transform: scale(1.1,1.1);
+}

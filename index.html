@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorific</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="model.css">
+
+    <!-- ----icon link-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- fontslink -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;700&family=Lobster&family=Pacifico&display=swap"
+        rel="stylesheet">
+
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- --------------navlink----- -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="shortcut icon" href="images/carlogo.png" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+
+<body class="bg-dark ">
+
+    <!-- ---------------nav strat------------------------- -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/carlogo.png" alt="Bootstrap" width="100" height="100" style="border-radius: 50%;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- -----------------name of company----------- -->
+                <div class="container-fluid ">
+                    <div class="container1 text-white animated bounceInDown ">
+                        <h1>MOTORIFIC</h1>
+                    </div>
+                    <!-- ---------------end---------- -->
+                    <input type="checkbox" id="active">
+                    <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+                    <div class="wrapper">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="modeline.html">Model</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="Gallery.html">Gallery</a></li>
+                            <li><a href="comparision.html">Comparision</a></li>
+                            <li><a href="scheme.html">Scheme</a></li>
+                            <li><a href="contactpg.html">Get in Touch WIth Us</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+        </nav>
+    </div>
+
+    <!-- ---------------nav end-------------------------- -->
+
+
+
+
+    <!-- caurosel strat////////// -->
+    <div class="container-fluid">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/model.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Finance Your Car In Next Minutes</h3>
+                        <p>Motoriffic has made car leasing so simple it's just unbelieveable. In just three steps <br>
+                            you can pickup a car see it's price and boom!!!! <br>
+                            you are done..
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2022_Honda_Civic.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Large Enough To Serve You, <br> Small Enough to Know You </h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/accord.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Tuning is an Upgrade that Unlocks <br> Hiddden Potential Of Your Car </h3>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- caurosel end////////// -->
+
+
+
+    <!-- CARTS START----------- -->
+    <div class="container">
+        <h2 class="text-center my-5 text-white" style="font-size: xx-large;">What You Will be Getting..!!!</h2>
+
+        <div class="row mt-4">
+            <div class="col-md-12 col-lg-4 mb-3">
+                <div class="card" data-aos="zoom-out-down">
+                    <img src="images/honda-4.jpg" class="card-img-top " alt="..." height="260px">
+                    <div class="card-body text-light carts">
+                        <h5 class="card-title">Honda Accord</h5>
+                        <p class="card-text"> The interior of the Accord features an 8-inch touchscreen display with
+                            wired Apple
+                            CarPlay® & Android Auto™ compatibility and a four-speaker stereo system. Other standard
+                            tech
+                            features include two USB ports, Bluetooth® HandsFreeLink®, remote keyless entry, and a
+                            dual-zone
+                            auto climate control system</p>
+                    </div>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item ">Fuel Type <strong>(Petrol)</strong></li>
+                        <li class="list-group-item">ARAI Mileage <strong>(23.1 kmpl)</strong></li>
+                        <li class="list-group-item"> Transmission<strong>(Automatic)</strong></li>
+                    </ul>
+                    <div class="card-body mx-5 text-center">
+                        <p><u>For More Information</u></p>
+                        <span class="badge text-bg-secondary list-unstyled"><a href="car1info.html"
+                                class="card-link"><button class="button-86 text-center"
+                                    role="button">view</button></a></span>
+                    </div>
+                </div>
+            </div>
+            <!-- !-- ------------------cart1 end---------------------//// -->
+
+            <div class="col-md-12 col-lg-4 mb-3">
+                <div class="card" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <img src="images/totyota c.jpg" class="card-img-top" alt="..." height="260px">
+                    <div class="card-body carts  text-light ">
+                        <h5 class="card-title">Toyota Corolla</h5>
+                        <p class="card-text">Unsurprisingly, Toyota sold over 50 million units from the Corolla
+                            through twelve generations. In its long history, the Corolla has won several awards for
+                            safety, value, and reliability. So, this is why the Toyota Corolla is one of the
+                            best-selling cars of all time.Ground Clearance Unladen170 mm, Body TypeSedan, City
+                            Mileage9.8 kmpl</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"> ARAI Mileage<strong>(13.4 kmpl)</strong></li>
+                        <li class="list-group-item"> Fuel Type <strong>Petrol</strong></li>
+                        <li class="list-group-item">Engine Displacement (cc) <strong>1794</strong></li>
+                    </ul>
+                    <div class="card-body mx-5 text-center">
+                        <p><u>For More Information</u></p>
+                        <span class="badge text-bg-secondary"><a href="car2info.html" class="card-link"><button
+                                    class="button-86 text-center" role="button">view</button></a></span>
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------------cart2-end------------------------------ -->
+
+
+
+
+
+            <!-- ------------------------cart3------------------------------- -->
+            <div class="col-md-12 col-lg-4 mb-3">
+                <div class="card" data-aos="zoom-in-left" data-aos-duration="1000">
+                    <img src="images/maryri.webp" class="card-img-top" alt="..." height="260px">
+                    <div class="card-body bg-dark-subtle text-light carts">
+                        <h5 class="card-title"> Suzuki Wagon R </h5>
+                        <p class="card-text">The Maruti Wagon R has 2 Petrol Engine and 1 CNG Engine on offer. The
+                            Petrol engine is 998 cc and 1197 cc while the CNG engine is 998 cc . It is available
+                            with Manual & Automatic transmission. The Wagon R is a 5 seater 4 cylinder car
+                            and has length of 3655mm, width of 1620mm and a wheelbase of 2435.. ,City Mileage9.8 kmpl
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">ARAI Mileage <strong>(24.43 kmpl)</strong></li>
+                        <li class="list-group-item">Seating Capacity <strong>(05)</strong></li>
+                        <li class="list-group-item">Engine Displacement <strong>(cc)1794 </strong></li>
+                    </ul>
+                    <div class="card-body mx-5 text-center">
+                        <p><u>For More Information</u></p>
+                        <span class="badge text-bg-secondary"><a href="car3info.html" class="card-link"><button
+                                    class="button-86 text-center" role="button">view</button></a></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- CARTS END----------- -->
+
+
+
+    <!-- -------------second row of cars-------------- -->
+    <!-- CARTS START----------- -->
+    <div class="container mt-5">
+
+        <div class="row mt-4">
+            <div class="col-lg-4 col-md-12 mb-3">
+                <div class="card" data-aos="zoom-out-down">
+                    <img src="images/home1" class="card-img-top " alt="..." height="280px">
+                    <div class="card-body text-light carts">
+                        <h5 class="card-title">Honda Fit</h5>
+                        <p class="card-text"> The Honda Fit or Honda Jazz is a small car manufactured and
+                            marketed by Honda since 2001 over four generations.
+                            It has a five-door hatchback body style
+                            andF is considered a supermini in the United Kingdom,
+                            a subcompact car in the United States, and a light car in Australia. </p>
+                    </div>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item ">Fuel Type <strong>(Petrol)</strong></li>
+                        <li class="list-group-item">ARAI Mileage <strong>(23.1 kmpl)</strong></li>
+                        <li class="list-group-item"> Transmission<strong>(Automatic)</strong></li>
+                    </ul>
+                    <div class="card-body mx-5 text-center">
+                        <p><u>For More Information</u></p>
+                        <span class="badge text-bg-secondary list-unstyled"><a href="car4info.html"
+                                class="card-link"><button class="button-86 text-center"
+                                    role="button">view</button></a></span>
+                    </div>
+                </div>
+            </div>
+            <!-- !-- ------------------cart1 end---------------------//// -->
+
+            <div class="col-lg-4 col-md-12 mb-3">
+                <div class="card" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <img src="images/home2" class="card-img-top" alt="..." height="280px">
+                    <div class="card-body carts  text-light ">
+                        <h5 class="card-title">Audi TT</h5>
+                        <p class="card-text">The Audi TT is a series of 2-door production sports cars and convertibles,
+                            made by Audi since 1998, in its third generation since 2014
+                            The first two generations were assembled by Audi's Hungarian subsidiary, one of the world's
+                            biggest
+                            engine making plants,painted at Audi's Ingolstadt plant</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"> ARAI Mileage<strong>(13.4 kmpl)</strong></li>
+                        <li class="list-group-item"> Fuel Type <strong>Petrol</strong></li>
+                        <li class="list-group-item">Engine Displacement (cc) <strong>1794</strong></li>
+                    </ul>
+                    <div class="card-body mx-5 text-center">
+                        <p><u>For More Information</u></p>
+                        <span class="badge text-bg-secondary"><a href="car5info.html" class="card-link"><button
+                                    class="button-86 text-center" role="button">view</button></a></span>
+                    </div>
+                </div>
+            </div>
+            <!-- ------------------------cart2-end------------------------------ -->
+
+
+
+
+
+            <!-- ------------------------cart3------------------------------- -->
+            <div class="col-lg-4 col-md-12 mb-3">
+                <div class="card" data-aos="zoom-in-left" data-aos-duration="1000">
+                    <img src="images/kiam" class="card-img-top " alt="..." height="280px">
+                    <div class="card-body bg-dark-subtle text-light carts">
+                        <h5 class="card-title">Kia</h5>
+                        <p class="card-text">The kia, stylized as HiLux and historically as Hi-Lux, is a series of
+                            pickup
+                            trucks produced and marketed by the Japanese automobile manufacturer.
+                            The majority of these vehicles are sold as pickup truck or cab chassis variants, although
+                            they could be configured in a variety of body styles.
+                        </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">ARAI Mileage <strong>(24.43 kmpl)</strong></li>
+                        <li class="list-group-item">Seating Capacity <strong>(05)</strong></li>
+                        <li class="list-group-item">Engine Displacement <strong>(cc)1794 </strong></li>
+                    </ul>
+                    <div class="card-body mx-5 text-center">
+                        <p><u>For More Information</u></p>
+                        <span class="badge text-bg-secondary"><a href="car6info.html" class="card-link"><button
+                                    class="button-86 text-center" role="button">view</button></a></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- CARTS END----------- -->
+
+    <!-- -------------second row of cars EEEEEnddddddddd-------------- -->
+    <!-- -----image------ -->
+    <div class="container mt-5">
+        <img src="images/attachment 2.png" class="img-fluid w-100" alt="...">
+    </div>
+    <!-- -----image------ -->
+
+    <!-- --------sign in-------------- -->
+
+    <div class="container text-white text-center mt-5">
+        <h2>It's as Easy as 1-2-3 </h2>
+        <div class="hr d-flex justify-content-center">
+            <hr class="w-25 border-2 opacity-50 ">
+        </div>
+        <p>Get up to many great offers in Three Easy Steps</p>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                <div class="icon">
+                    <!-- <i class="fas fa-car-side fa-3x text-secondary" style=" width: 30px; font-size: x-large;">
+                    </i> -->
+                    <div class="fluid mt-5">
+                        <ol>
+                            <h3>1. Select Your Vehicles</h3>
+                            <p>Search for the Car you want or check out our special.
+                                Select your Car make model and trims in our Vehicles catalogand apply for Financing </p>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4 mb-3">
+                <div class="icon ">
+                    <i class="fa-sharp fa-light fa-tire  " style="width: 30px; font-size: x-large;"></i>
+                    <!-- <i class="fa-sharp fa-light fa-circle-dollar fa-beat">hy</i> -->
+                    <div class="container mt-4">
+                        <ol>
+                            <h3>2. Get Financing Approved</h3>
+                            <p> After you submit your lease do we ask for a feew piceces of private info to ocmplete
+                                your
+                                contract.
+                                Once that's done, your car will be on it's way.</p>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+
+                <div class="container mt-5">
+                    <ol>
+                        <h3>3. Pay As You Go</h3>
+                        <p>Search for the car you want,or check out, our specials.
+                            Select our car make,model and trim in our Vehiclesand apply for Financing</p>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- --------sign in-------------- -->
+
+    <div class="container">
+        <div class="text-center text-white mt-5 " style="font-size: xx-large;">
+            <h2>From The Resource Center</h2>
+            <p>Take control with our expert advice</p>
+        </div>
+        <!-- Gallery start -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="col-md-12">
+                    <img src="images/Toyota-Corolla.jpg" class="mb-4 " width="100%" alt="Boat on Calm Water"
+                        data-aos="fade-up" data-aos-anchor-placement="top-bottom" />
+                </div>
+                <div class="col-md-12">
+                    <img src="images/girl bike (19).jpg" class="mb-4" width="100%" alt="Wintry Mountain Landscape"
+                        data-aos="fade-up" data-aos-anchor-placement="center-bottom" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="images/car_1.jpg" class="mb-4" alt="Mountains in the Clouds" width="100%" data-aos="fade-up"
+                    data-aos-anchor-placement="center-bottom" />
+            </div>
+            <div class="col-md-4">
+                <div class="col-md-12">
+                    <img src="images/toyo.jpg" class="mb-4 " width="100%" alt="Boat on Calm Water" data-aos="fade-up"
+                        data-aos-anchor-placement="top-bottom" />
+                </div>
+                <div class="col-md-12">
+                    <img src="images/tacoma main.jpg" class="mb-4" width="100%" alt="Wintry Mountain Landscape"
+                        data-aos="fade-up" data-aos-anchor-placement="center-bottom" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery end  -->
+    <!-- -------------------------------------------------------------------MOTORS---------------------------------------------------------------------------- -->
+
+    <div class="container-fluid">
+        <div class="container hy text-light text-center mt-4 bg-black d-flex justify-content-around py-5 ">
+            <img class="imga" src="images/bikes33-removebg-preview.png" class="w-75" alt="hola"
+                data-aos="zoom-in-left">
+            <figure class="text-center mx-5">
+                <blockquote class="blockquote" style="font-size: xx-large;">
+                    <p>
+                    <h2>ORDER YOUR VEHICLE <br> LICENSE PLATE</h2>
+                    </p>
+                </blockquote>
+                <figcaption class="blockquote-footer text-light">
+                    If you use this website regularly and and would like to help <br> this site on the internet,
+                    please consider donating a Small to help pay .<cite title="Source Title"> for hosting and bandwidth
+                        bill</cite>
+                </figcaption>
+            </figure>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- heavy bikes session -->
+    <div class="container mt-5">
+        <header>
+            <h2>TOP 4 BRANDLY HEAVY BIKES IN PAKISTAN</h2>
+            <p>If cruising in style is your thing and sports cars <br> don’t suit your fancy then chances are you
+                are a biker. <br> In the last decade, the bike market has gotten quite mature in Pakistan,<br> and
+                you are
+                enlightened with multiple options to choose</p>
+        </header>
+        <main>
+            <div class="bike-container my-5">
+                <div class="row">
+                    <div class="col-lg-6 d-flex justify-content-center my-">
+                        <div class="card" style="width: 460px ; height: 450px;">
+                            <div class="card-img">
+                                <img src="images/black.png" class="card-img-top" alt="..." height="260px">
+                            </div>
+                            <div class="card-body carts2 text-light">
+                                <h3 class="card-title">SUZUKI INTRUDER</h3>
+                                <p class="card-text">Suzuki Intruder is due for an update worldwide early 2018.
+                                    However, Suzuki recently dropped the
+                                    price of this cruiser bike to make it a little more affordable. It also looks
+                                    phenomenal, and
+                                    you would easily fall in love with it at first glance. </p>
+                                <a href="bikeinfo1.html" style="text-decoration: none;">
+                                    <button class="button-86" style="margin-left: 119px;">Visit for More</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center my-3">
+                        <div class="card" style="width: 460px ; height: 450px;">
+                            <div class="card-img">
+                                <img src="images/c4.jpg" class="card-img-top" alt="..." height="260px">
+                            </div>
+                            <div class="card-body carts2 text-light">
+                                <h3 class="card-title">YAMAHA YZF-R6/YZF-R1</h3>
+                                <p class="card-text">Yamaha is without a doubt the greatest sports bike manufacturer
+                                    of all times. It has delivered us with amazing bikes, and YZF-R6 is one of them.
+                                    YZF-R6 looks just like any other sports bike, and it mainly rivals the Honda
+                                    CBR-500 and Suzuki GSX-R600. R6 f</p>
+                                <a href="bike2info.html" style="text-decoration: none;">
+                                    <button class="button-86" style="margin-left: 119px;">Visit for More</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-lg-6 d-flex justify-content-center my-3">
+                        <div class="card" style="width: 460px ; height: 450px;">
+                            <div class="card-img" style="width: 460px ; height: 450px;">
+                                <img src="images/bike11.jpg" class="card-img-top" alt="..." height="260px">
+                            </div>
+                            <div class="card-body carts2 text-light">
+                                <h3 class="card-title">Suzuki GSX-R1000</h3>
+                                <p class="card-text">The Suzuki GSX-R1000 is a supersport motorcycle made by Suzuki. It
+                                    was introduced in 2001 to
+                                    replace the GSX-R1100 and is powered by a liquid-cooled 999 cc inline
+                                    four-cylinder, four-stroke engine although originally 988 cc from 2001 to 2004</p>
+
+                                <a href="bikeinfo3.html" style="text-decoration: none;">
+                                    <button class="button-86" style="margin-left: 119px;">Visit for More</button>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-lg-6 d-flex justify-content-center my-3">
+                        <div class="card" style="width: 460px ; height: 450px;">
+                            <div class="card-img" style="width: 460px ; height: 450px;">
+                                <img src="images/bike3.jpg" class="card-img-top" alt="..." height="260px">
+                            </div>
+                            <div class="card-body carts2 text-light">
+                                <h3 class="card-title">Kawasaki Ninga H2R</h3>
+                                <p class="card-text">The Ninga H2R is a supersport motorcycle made by Suzuki. It
+                                    was introduced in 2001 to
+                                    replace the GSX-R1100 and is powered by a liquid-cooled 999 cc inline
+                                    four-cylinder, four-stroke engine although originally 988 cc from 2001 to 2004</p>
+
+                                <a href="bike4info.html" style="text-decoration: none;">
+                                    <button class="button-86 " style="margin-left: 119px;">Visit for More</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    </div>
+
+
+
+    <!-- ---------------------------FOOTER------------------------------------ -->
+    <div class="container-fluid">
+        <div class="container  border border-1 rounded-start-2 shade">
+            <!-- shade kesay laye yahaaaa -->
+
+            <div class="container  text-white p-3 " style="font-family: 'Audiowide', sans-serif;">
+
+
+                <div class="mt-3 ">
+
+                    <h3 class="text-center fw-bold">Customer Care</h3>
+                    <p class="text-center  mt-3">It is our Endeavor to provide top quality services to our valued
+                        customers
+                        to <br>
+                        their entire requirement and satisfaction, through our After Sales Network across Pakistan. <br>
+
+                        Our Dealers’ workshops with skilled manpower to serve in all major cities are equipped with
+                        state of
+                        the <br>
+                        art latest technology, tools & equipment's and technical manpower to handle conventional and
+                        Electronic <br>
+                        Fuel Injection (EFI) system.</p>
+                    <center><button class="btn btn-dark btn-outline-light">Get started</button></center>
+                    <hr>
+                </div>
+                <div class="row justify-content-around text-center text-md-center">
+                    <div class="col-md-2 text-center">
+                        <h2 class="fw-bold mt-2 me-4">About Us</h2>
+                        <p>Everywhere, drivers benefit from our first class service, expert know-how and ex-works
+                            quality of
+                            automotive spare parts. Our professionals are experts and work with state of the art testing
+                            and
+                            tuning technology.
+
+                        </p>
+                    </div>
+
+                    <div class="col-md-2 mt-2 ">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold my-2">Services</li>
+                            <li><a href="services.html" class="text-decoration-none text-light">Online Booking</a></li>
+                            <!-- <li><a href="#" class="text-decoration-none text-light">Delievery status</a></li> -->
+
+
+                        </ul>
+
+                    </div>
+                    <div class="col-md-2 mt-2 ">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold my-2">Model line</li>
+                            <li><a href="modeline.html" class="text-decoration-none text-light">MODEL LINE</a></li>
+
+
+                        </ul>
+
+                    </div>
+
+                    <div class="col-md-2 mt-2 ">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold my-2">Support</li>
+                            <li><a href="#" class="text-decoration-none text-light">Contact Us</a></li>
+                            <li><a href="#" class="text-decoration-none text-light">Support Request</a></li>
+
+
+                        </ul>
+
+                    </div>
+
+                    <div class="col-md-2 mt-2 ">
+                        <li class="fw-bold my-2 list-unstyled" style="margin-right: 120px;">Follow us</li>
+                        <ul class="list-unstyled d-flex justify-content-center justify-content-md-start">
+                            <li><a href="https://www.facebook.com/" target="_blank" class="text-white"><i
+                                        class="fa-brands fa-facebook mx-2 fa-1x"></i></a>
+                            <li>
+                            <li><a href="https://www.whatsapp.com/" target="_blank" class="text-white"><i
+                                        class="fa-brands fa-whatsapp mx-2 fa-1x"></i></a>
+                            <li>
+                            <li><a href="https://www.youtube.com/" target="_blank" class="text-white"><i
+                                        class="fa-brands fa-youtube  mx-2 fa-1x"></i></a>
+                            <li>
+                            <li><a href="https://www.instagram.com/" target="_blank" class="text-white"><i
+                                        class="fa-brands fa-instagram mx-2 fa-1x "></i></a>
+                            <li>
+
+                        </ul>
+
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12 text-center mt-2">
+                        <p>&copy; 2023 Copyright <a href="#" class="text-white">The providers</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- aos animation tag -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

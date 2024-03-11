@@ -1,0 +1,19 @@
+.head{
+    color:white;
+    text-align: center;
+}
+
+.continer{
+    margin-left: 200px; 
+}
+
+.on{
+    color: black;  
+}
+/* container1,h1{
+    margin-left: 665px;
+} */
+navbar-brand,img{
+    box-shadow: -10px 10px 20px rgb(0, 0, 0);
+    
+}

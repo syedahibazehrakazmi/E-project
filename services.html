@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <link rel="stylesheet" href="carinfo.css" />
+    <link rel="stylesheet" href="service.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <!-- --------------navlink----- -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="nav.css" />
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="shortcut icon" href="images/carlogo.png" type="image/x-icon">
+</head>
+
+<body class="bg-dark ">
+
+    <!-- logo--- -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-dark ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/carlogo.png" alt="Bootstrap" width="100" height="100" style="border-radius: 50%;">
+                </a>
+                <!-- -----------------name of company----------- -->
+                <div class="container-fluid ">
+                    <div class="container1 text-white animated bounceInDown ">
+                        <h1>MOTORIFIC</h1>
+                    </div>
+                    <!-- ---------------end---------- -->
+                    <input type="checkbox" id="active">
+                    <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+                    <div class="wrapper">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="modeline.html">model</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="Gallery.html">Gallery</a></li>
+                            <li><a href="comparision.html">Comparision</a></li>
+                            <li><a href="#">Scheme</a></li>
+                            <li><a href="contactpg.html">Get in Touch WIth Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </div>
+    <!-- ---------------nav strat------------------------- -->
+    <input type="checkbox" id="active" />
+    <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+    <div class="wrapper">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="modeline.html">Model</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="comparision.html">Comparision</a></li>
+        </ul>
+    </div>
+
+    <!-- head start -->
+
+    <div class="banner-card mt-5">
+        <img src="images/civic_concept_08_0.jpg" width="100%" alt="" height="800px" />
+        <div class="banner-text">
+            <h2>Motorific Car Services</h2>
+            <h4>
+                Stay safe with updates on recalls, or tackle issues yourself with
+                how-tos <br />
+                from our experts.
+            </h4>
+        </div>
+    </div>
+
+    <!-- head end -->
+
+    <!-- search optns  start-->
+
+    <div class="container mt-5 mb-5">
+        <h2 class="searchs count">Search For Recalls By Car</h2>
+        <!-- cars searchs -->
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <select class="form-select mt-5" id="inputstate">
+                    <option value="disabled" class="disableD">Choose Make Cars</option>
+                    <option value="disabled">CR-V</option>
+                    <option value="disabled">Tesla</option>
+                    <option value="disabled">Revo</option>
+                    <option value="disabled">Roco</option>
+                    <option value="disabled">Legender Fortuner</option>
+                    <option value="disabled">BR-V</option>
+                    <option value="disabled">Honda Civic</option>
+                    <option value="disabled">Honda City</option>
+                    <option value="disabled">Honda CR-V</option>
+                    <option value="disabled">Honda HR-V</option>
+                    <option value="disabled">Aspire 1.5 Ls</option>
+                    <option value="disabled">Civic RS</option>
+                    <option value="disabled">HR-V VTI</option>
+                    <option value="disabled">Honda Accord</option>
+                    <option value="disabled">Honda Oriel</option>
+                    <option value="disabled">KIA Sportage</option>
+                    <option value="disabled">KIA Picanto</option>
+                    <option value="disabled">KIA Stinger</option>
+                    <option value="disabled">KIA Seltos</option>
+                </select>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <select class="form-select mt-5" id="inputstate">
+                    <option value="disabled" class="disableD">
+                        Choose The Motor Bikes
+                    </option>
+                    <option value="disabled">Ducati</option>
+                    <option value="disabled">Yamaha</option>
+                    <option value="disabled">Ninja</option>
+                    <option value="disabled">Haya-bhusa</option>
+                    <option value="disabled">Bayerische</option>
+                    <option value="disabled">Harlie</option>
+                    <option value="disabled">KTM A.G</option>
+                    <option value="disabled">Aprilia</option>
+                    <option value="disabled">Triumph</option>
+                    <option value="disabled">Honda Motor Company</option>
+                    <option value="disabled">Suzuki</option>
+                    <option value="disabled">Harley Davidson</option>
+                    <option value="disabled">BMW</option>
+                    <option value="disabled">Moto Guzzi</option>
+                    <option value="disabled">MV-AGUSTA</option>
+                    <option value="disabled">Neiman Marcus</option>
+                    <option value="disabled">AJS Porcupine</option>
+                    <option value="disabled">Ecosse Spirit</option>
+                    <option value="disabled">Dodge Tomahawk</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- bike searchs -->
+    </div>
+
+    <!-- cards section 1  -->
+
+    <div class="container mt-5">
+        <div class="row count">
+            <h2 class="recalls count">Current Recalls</h2>
+            <br />
+            <p class="parah count">
+                Find out if there are any recalls on your car.
+            </p>
+
+            <div class="col-lg-4 col-md-12 col-sm-12 mt-5 ps-1">
+                <div class="card">
+                    <img src="images/car_2745_331891.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text d-flex">2021</p>
+
+                        <a href="" class="parah1">
+                            <h4>Honda Vezel</h4>
+                        </a>
+                        <p>The price of a used Honda Vezel G in Pakistan starts from PKR 12,500,000.
+                            This price of Vezel G in Pakistan varies on model year, mileage, and overall condition of
+                            the variant It is the successor to the 02 Series and has been produced.</p>
+                        <hr class="bg-danger w-50" style="height: 3px" />
+                        <br />
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
+                <div class="card">
+                    <img src="images/car_8829_865935.jpg" class="card-img-top" alt="..." height="230px" />
+                    <div class="card-body">
+                        <p class="card-text d-flex">2023</p>
+                        <a href="" class="parah1">
+                            <h4>Bmw 3 Series</h4>
+                        </a>
+                        <p>he BMW 3 Series is a line of compact executive cars manufactured by the German automaker
+                            BMW since may 1998 The first generation of the 3 Series was only available as a 2-door.
+                            It is the successor to the 02 Series and has been produced.</p>
+                        <hr class="bg-danger w-50" style="height: 3px" />
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 mt-5">
+                <div class="card">
+                    <img src="images/car_2857_851956.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                        <p class="card-text d-flex mt-2">2020</p>
+
+                        <a href="" class="parah1">
+                            <h4>Toyota Hilux</h4>
+                        </a>
+                        <p>The Toyota Hilux stylized as HiLux and historicallyas Hi-Lux, Japanese automobile
+                            manufacturer Toyota. The majority of these
+                            vehicles are sold as pickup truck or cab chassis variants, although they could be configured
+                            in a variety of body styles.</p>
+
+                        <hr class="bg-danger w-50" style="height: 3px" />
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2nd parah of cards -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <h2 class="searchs count">Motorific Provides New Cars Services</h2>
+            <div class="col-md-12 col-sm-12 col-lg-4 mt-5">
+                <div class="card">
+                    <img src="images/car_8411_63921p.jpg" class="card-img-top w-100" alt="..." height="250px" />
+                    <br />
+                    <div class="card-body">
+                        <p class="card-text d-flex">News</p>
+
+                        <a href="" class="parah1">
+                            <h4>
+                                Kia STINGER,1,368-(cc). provides a wide range of cars that
+                                meet your lifestyle.
+                            </h4>
+                        </a>
+                        <hr class="bg-danger w-50" style="height: 3px" />
+
+                        <br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-lg-4 mt-5">
+                <div class="card">
+                    <img src="images/car_7267_822514.jpg" card-img-top w-100 alt="..." />
+                    <br />
+                    <div class="card-body">
+                        <p class="card-text d-flex">News</p>
+
+                        <a href="" class="parah1">
+                            <h4>
+                                The Toyota Revo Rocco gets its power from a 1GD-FTV, 2755 CC,
+                                4-cylinders
+                            </h4>
+                        </a>
+                        <hr class="bg-danger w-50" style="height: 3px" />
+
+                        <br />
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-sm-12 col-lg-4 mt-5">
+                <div class="card">
+                    <img src="images/car_3744_217020.jpg" class="card-img-top w-100" alt="..." height="300px" />
+                    <div class="card-body">
+                        <p class="card-text d-flex">News</p>
+
+                        <a href="" class="parah1">
+                            <h4>
+                                Toyota Fortuner is a 7 seater. Fortuner's 4 cylinder, 2755 cc
+                            </h4>
+                        </a>
+                        <hr class="bg-danger w-50" style="height: 3px" />
+
+                        <br />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- anchor tag of information page -->
+    <div class="container mt-5 ps-5">
+        <a href="" class="parah3 text-center">
+            <h2>See all expert advice</h2>
+        </a>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!-- anchor tag of information page  enddd-->
+
+    <!-- deatails about parts -->
+
+    <div class="container">
+        <div class="row">
+            <h2 class="hding ps-5 count">Learn about auto parts</h2>
+            <hr class="count bg-body" />
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <!-- 2nd heading -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <h4 class="hding ps-5">Heater Hose</h4>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-4">
+                <h6 class="hding">
+                    Heater hoses are rubber hoses that circulate engine coolant to and
+                    from the heater core, which is the small radiator that provides heat
+                    for the cabin. They typically extend from the engine to the
+                    firewall, because the core is located inside the vehicle’s
+                    dashboard. Relatively inexpensive, heater hoses should be kept in
+                    good condition to prevent leaks or ruptures that would jeopardize
+                    engine cooling.Vehicle Details. Year. Year. Make. Make. Model.
+                    Model. Engine. Engine. View Parts. Enter a VIN Number. Powered By
+                    Omnivin Omni vin logo.
+                </h6>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 mt-4">
+                <img src="images/parts.jpg" class="" alt="" />
+            </div>
+        </div>
+    </div>
+    <br /><br /><br />
+    <br />
+    <br />
+    <br />
+
+    <!-- 2nd heading  endd-->
+
+    <!-- ---------------------------FOOTER------------------------------------ -->
+        <!-- ---------------------------FOOTER------------------------------------ -->
+<div class="container-fluid">
+    <div class="container  border border-1 rounded-start-2 shade mt-5">
+        <!-- shade kesay laye yahaaaa -->
+  
+        <div class="container  text-white p-3 " style="font-family: 'Audiowide', sans-serif;">
+  
+  
+            <div class="mt-3 ">
+  
+                <h3 class="text-center fw-bold">Customer Care</h3>
+                <p class="text-center  mt-3">It is our Endeavor to provide top quality services to our valued customers
+                    to <br>
+                    their entire requirement and satisfaction, through our After Sales Network across Pakistan. <br>
+  
+                    Our Dealers’ workshops with skilled manpower to serve in all major cities are equipped with state of
+                    the <br>
+                    art latest technology, tools & equipment's and technical manpower to handle conventional and
+                    Electronic <br>
+                    Fuel Injection (EFI) system.</p>
+                <center><button class="btn btn-dark btn-outline-light">Get started</button></center>
+                <hr>
+            </div>
+            <div class="row justify-content-around text-center text-md-center">
+                <div class="col-md-2 text-center">
+                    <h2 class="fw-bold mt-2 me-4">About Us</h2>
+                    <p>Everywhere, drivers benefit from our first class service, expert know-how and ex-works quality of
+                        automotive spare parts. Our professionals are experts and work with state of the art testing and
+                        tuning technology.
+  
+                    </p>
+                </div>
+  
+                <div class="col-md-2 mt-2 ">
+                    <ul class="list-unstyled">
+                        <li class="fw-bold my-2">Services</li>
+                        <li><a href="services.html" class="text-decoration-none text-light">Online Booking</a></li>
+                        <!-- <li><a href="#" class="text-decoration-none text-light">Delievery status</a></li> -->
+  
+  
+                    </ul>
+  
+                </div>
+                <div class="col-md-2 mt-2 ">
+                    <ul class="list-unstyled">
+                        <li class="fw-bold my-2">Model line</li>
+                        <li><a href="modeline.html" class="text-decoration-none text-light">MODEL LINE</a></li>
+  
+  
+                    </ul>
+  
+                </div>
+  
+                <div class="col-md-2 mt-2 ">
+                    <ul class="list-unstyled">
+                        <li class="fw-bold my-2">Support</li>
+                        <li><a href="#" class="text-decoration-none text-light">Contact Us</a></li>
+                        <li><a href="#" class="text-decoration-none text-light">Support Request</a></li>
+  
+  
+                    </ul>
+  
+                </div>
+  
+                <div class="col-md-2 mt-2 ">
+                    <li class="fw-bold my-2 list-unstyled" style="margin-right: 120px;">Follow us</li>
+                    <ul class="list-unstyled d-flex justify-content-center justify-content-md-start">
+                        <li><a href="https://www.facebook.com/" target="_blank" class="text-white"><i
+                                    class="fa-brands fa-facebook mx-2 fa-1x"></i></a>
+                        <li>
+                        <li><a href="https://www.whatsapp.com/" target="_blank" class="text-white"><i
+                                    class="fa-brands fa-whatsapp mx-2 fa-1x"></i></a>
+                        <li>
+                        <li><a href="https://www.youtube.com/" target="_blank" class="text-white"><i
+                                    class="fa-brands fa-youtube  mx-2 fa-1x"></i></a>
+                        <li>
+                        <li><a href="https://www.instagram.com/" target="_blank" class="text-white"><i
+                                    class="fa-brands fa-instagram mx-2 fa-1x "></i></a>
+                        <li>
+  
+                    </ul>
+  
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-12 text-center mt-2">
+                    <p>&copy; 2023 Copyright <a href="#" class="text-white">The providers</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

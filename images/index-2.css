@@ -1,0 +1,146 @@
+:root {
+    --font-family: 'Cormorant Garamond', serif;
+
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.container1 {
+    font-family: var(--font-family);
+    display: flex;
+    justify-content: left;
+    margin-top: 45px;
+}
+
+.container-fluid {
+    font-family: var(--font-family);
+
+}
+
+.carts {
+    background-image: linear-gradient(-180deg, rgb(30, 26, 39), rgb(79, 79, 134), rgb(82, 77, 77));
+}
+
+.imgb{
+    box-shadow: 2px 5px  15px 2px rgb(139, 133, 133);
+}
+.imga{
+    box-shadow: 0px 5px  5px 1px rgb(49, 49, 49);
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.card{
+    width: 22rem;
+}
+.bike-container .card-img{
+
+    overflow: hidden;
+
+}
+
+.bike-container img {
+    width: 100%;
+    height: 200px;
+    border: 2px solid #333;
+    transition: transform 0.3s ease;
+    transform: scale(0.9);
+}
+
+.bike-container img:hover {
+    transform: scale(1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.carts2{
+    background-image: linear-gradient(-180deg, rgb(59, 78, 87), rgb(104, 104, 126), rgb(75, 85, 100));
+}
+
+
+
+/* button style */
+
+
+/* CSS */
+.button-86 {
+    all: unset;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    position: relative;
+    color: #f0f0f0;
+    cursor: pointer;
+    z-index: 1;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-86::after,
+.button-86::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -99999;
+    transition: all .4s;
+}
+
+.button-86::before {
+    transform: translate(0%, 0%);
+    width: 100%;
+    height: 100%;
+    background: #28282d;
+    border-radius: 10px;
+}
+
+.button-86::after {
+    transform: translate(10px, 10px);
+    width: 35px;
+    height: 35px;
+    background: #ffffff15;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 50px;
+}
+
+.button-86:hover::before {
+    transform: translate(5%, 20%);
+    width: 110%;
+    height: 110%;
+}
+
+.button-86:hover::after {
+    border-radius: 10px;
+    transform: translate(0, 0);
+    width: 100%;
+    height: 100%;
+}
+
+.button-86:active::after {
+    transition: 0s;
+    transform: translate(0, 5%);
+}
